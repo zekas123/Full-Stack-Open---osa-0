@@ -1,5 +1,5 @@
 ```mermaid
-graph TD;
+0.4: uusi muistiinpano;
     html["Käyttäjä vieraili sivulla (HTML, CSS ja JS latautuivat)."] --> print["Käyttäjä kirjoitti tekstin ja napsautti Tallenna-painiketta."];
     print --> js["Selain: lähettää tietoja palvelimelle POST-pyynnön välityksellä."];
     js --> send["Palvelin: tallentaa uuden muistiinpanon ja ohjaa takaisin."];
